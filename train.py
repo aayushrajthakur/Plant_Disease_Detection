@@ -10,4 +10,4 @@ def train_model(test, epochs=10, batch_size=32):
     model.save('plant_disease_model.keras')  # Save in the native Keras format
 
 if __name__ == "__main__":
-    train_model('test')  # Update to the correct path
+    train_model('test')

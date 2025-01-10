@@ -11,5 +11,5 @@ def create_model():
     model.add(layers.MaxPooling2D((2, 2)))
     model.add(layers.Flatten())
     model.add(layers.Dense(128, activation='relu'))
-    model.add(layers.Dense(1, activation='sigmoid'))  # Change to softmax for multi-class
+    model.add(layers.Dense(1, activation='sigmoid')) 
     return model

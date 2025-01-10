@@ -41,6 +41,19 @@
             margin-top: 20px;
             color: #333;
         }
+        .btn{
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
     </style>
 </head>
 <body>
@@ -49,7 +62,7 @@
         <img src="{{ image }}" alt="Uploaded Image" class="img_fluid">
         <h1 class="pred">Prediction: {{ res }}</h1>
         <div>
-            <a href="{{url_for('main.html') }}" class="btn btn-primary">Home</a>
+            <a href="{{url_for('upload_image') }}" class="btn">Home</a>
         </div>
     </div>
 </body>
